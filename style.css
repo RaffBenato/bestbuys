@@ -1,0 +1,76 @@
+body {
+  background-color: #28282b;
+}
+
+.container {
+  width: 600px;
+  min-height: 100vh;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #d22b2b;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card {
+  width: 90%;
+  height: 100px;
+  background-color: #faf9f6;
+  border-radius: 10px;
+  margin: 8px 0;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card-img {
+  width: 20%;
+  height: 95%;
+}
+
+.card-text {
+  width: 80%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.card-title {
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #28282b;
+  text-decoration: none;
+}
+
+.footer-text {
+  width: 90%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
